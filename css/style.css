@@ -87,7 +87,7 @@ table {
 .header h1 a{
 background-image: url(../images/logo.png);
 width:224px ;
-height:50px ;
+height:53px ;
 display: block;
 text-indent: 101%;
 white-space: nowrap;
@@ -107,13 +107,11 @@ overflow: hidden;
   text-decoration: none;
   color: #0dcf91;
   font-size: 18px;
+  font-weight: bold;
 }
 .nav li a:hover{
-  background-color: #ccc;
-  color: #000;
-  /*待研究功能*/
+  border-bottom: 3px solid #0dcf91;
 }
-
 /*banner*/
 .banner{
   background-image: url(../images/banner.png) ;
